@@ -12,29 +12,23 @@
         object-fit: cover;
         margin-bottom: 16px;
       }
-
-      
     </style>
-    
-    
   </head>
   <body>
     {% include 'nav.html' %}
     <img class="img-fluid" id="banner" src="https://03f07786-5a9b-491e-b699-e9faff3dca05-00-36zzp8269ykj1.sisko.replit.dev/static/baner.jpg"/>
     <div class="container">
       <h1 class="text-center mt-2 mb-4">
-        {{company_name}} Careers
+        {{ company_name }} Careers
       </h1>
       <div class="row" style="margin-bottom:16px;">
         <div class="col-md-6">
-      
-      
-      <p class="lead">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          </p>
         </div>
         <div class="d-none d-md-block col-md-6">
-        <img src="/static/people.jpg" style="width:200px; height:175px; border-radius:4px;">
+          <img src="/static/people.jpg" style="width:200px; height:175px; border-radius:4px;" alt="People at work">
         </div>
       </div>  
       <h2 class="text-center mt-2 mb-4">Open Positions</h2>
@@ -44,8 +38,8 @@
         {% endfor %}
       </div>
       <div class="text-center">
-      <a class="btn btn-primary btn-lg" href="mailto:hello@atish.ai?subject=question%20about%20job%20openings&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20questions%3A%3Center%20question%3E">Contact Us</a>
-          <p class="mt-4">Copyright 2024, Atish</p>
+        <a class="btn btn-primary btn-lg" href="mailto:hello@atish.ai?subject=question%20about%20job%20openings&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20questions%3A%3Center%20question%3E">Contact Us</a>
+        <p class="mt-4">Copyright 2024, Atish</p>
       </div>  
     </div>
     {% include 'footer.html' %}
