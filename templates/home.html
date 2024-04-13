@@ -37,14 +37,14 @@
         <img src="/static/people.jpg" style="width:200px; height:175px; border-radius:4px;">
         </div>
       </div>  
-      <h2 class="text-center mt-2 mb-4">Jobs Openings</h2>
+      <h2 class="text-center mt-2 mb-4">Open Positions</h2>
       <div>
         {% for job in jobs %}
           {% include 'jobitem.html' %}
         {% endfor %}
       </div>
       <div class="text-center">
-      <button class="btn btn-primary btn-lg">Contact Us</button>
+      <a class="btn btn-primary btn-lg" href="mailto:hello@atish.ai?subject=question%20about%20job%20openings&body=My%20name%3A%20%3Cyour%20name%20here%3E%0D%0A%0D%0AMy%20questions%3A%3Center%20question%3E">Contact Us</a>
           <p class="mt-4">Copyright 2024, Atish</p>
       </div>  
     </div>
